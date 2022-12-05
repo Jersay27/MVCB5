@@ -22,7 +22,7 @@ namespace MVCB5
                         "~/Content/datatable/pdfmake-0.1.36/vfs_fonts.js",
                         "~/Content/datatable/Buttons-2.3.3/js/buttons.html5.min.js",
                         "~/Content/datatable/Buttons-2.3.3/js/buttons.print.min.js"
-                         ));
+                        ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/datatable/Buttons-2.3.3/css/datatables.min.css",

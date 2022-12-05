@@ -12,14 +12,14 @@
     <div class="col-md-4">
         <h2><i class="fa-brands fa-bootstrap"></i> To look cute</h2>
         <p>
-            
+
             The bootstrap version used is Bootstrap 5.2.2 with bundle
         </p>
         <p><a class="btn btn-success" href="https://getbootstrap.com/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2><i class="fa-solid fa-bell"></i> For notification</h2>
-        <p>Tthe template has toastr for its simple compatibility with jquery</p>
+        <p>The template has toastr for its simple compatibility with jquery</p>
         <p><a class="btn btn-warning" href="https://codeseven.github.io/toastr/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
@@ -28,8 +28,15 @@
         <p><a class="btn btn-danger" href="https://datatables.net/">Learn more &raquo;</a></p>
     </div>
 </div>
+<script src="~/Scripts/custom/notifications.js"></script>
+
+
 <script>
     $(document).ready(function () {
         toastr.success('Success messages');
+        toastr.error('errors messages');
+        toastr.warning('warning messages');
+        toastr.info('info messages');
+
     });
 </script>
