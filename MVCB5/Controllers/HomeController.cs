@@ -10,6 +10,8 @@ namespace MVCB5.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Index test.";
+
             return View();
         }
 
